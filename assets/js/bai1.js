@@ -11,13 +11,13 @@ function check(e){
     }else if($numberB.value.trim()==""){
         alert('Bạn chưa nhập số b');
         return;
-    }else if($numberA.value>$numberB.value){
+    }else if(Number($numberA.value)  > Number($numberB.value)){
         alert('Số a phải bé hơn số b');
         return;
     }  
 
     var tong = 0;
-    for (let i = $numberA.value; i <= $numberB.value; i++) {
+    for (let i = Number($numberA.value); i <= Number($numberB.value); i++) {
         let flag = 0;
 
         for (let j = 2; j < i; j++) {
