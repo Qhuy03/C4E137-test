@@ -33,7 +33,7 @@ function check(e){
 
         }
     }
-    $result.innerHTML= 'Tổng các số nguyên tố trong khoảng '+$numberA.value+' và '+$numberB.value+' là '+ tong;
+    $result.innerHTML= 'Tổng các số nguyên tố trong khoảng '+$numberA.value+' đến '+$numberB.value+' là '+ tong;
     console.log(tong);
     
   
