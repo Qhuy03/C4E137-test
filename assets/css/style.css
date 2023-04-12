@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.header {
+  background: #bfc8e6;
+  padding: 100px 100px;
+}
+.container {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container__content {
+  padding: 50px 50px;
+}
+.navigation {
+  margin-bottom: 70px;
+}
+.navigation__title {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.25;
+  color: #151b32;
+  margin-bottom: 24px;
+}
+
+.navigation__cta-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 250px;
+  height: 40px;
+  border: 1px solid #bfc8e6;
+  border-radius: 4px;
+  margin-right: auto;
+  background-image: url(../img/Frame.svg);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: left;
+  vertical-align: middle;
+}
+
+::placeholder {
+  position: absolute;
+  top: 12px;
+  left: 30px;
+}
+
+.navigation__cta {
+  display: flex;
+}
+.navigation_cta-btn {
+  display: inline-block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #151b32;
+  opacity: 0.8;
+  text-decoration: none;
+  padding: 6px;
+}
+.navigation_cta-btn:hover {
+  color: #ffffff;
+  background: #849fff;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.list__users {
+  display: flex;
+  column-gap: 16px;
+  row-gap: 16px;
+  flex-wrap: wrap;
+}
+.user__item {
+  background: #fbfcff;
+  border-radius: 16px;
+  width: 289px;
+  height: 170px;
+}
+.user__item-content {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+.user__item-pic {
+  width: 97px;
+  height: 97px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+.user__item-name {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #151b32;
+  padding-top: 20px;
+  margin-bottom: 4px;
+}
+.user__item-add {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #151b32;
+  margin-bottom: 16px;
+}
+.user__item-list__interest {
+  display: flex;
+}
+.user__item-interes {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #516fd5;
+  padding: 2px 8px;
+  background: #ffffff;
+  /* #BFC8E6 */
+  border: 1px solid #bfc8e6;
+  border-radius: 10px;
+}
+.user__item:hover {
+  background: #fbfcff;
+  border: 1px solid #bfc8e6;
+  box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+  border-radius: 16px;
+}
+.user__item-list__interest {
+    flex-wrap: wrap;
+    column-gap: 2px;
+    row-gap: 2px;
+}
